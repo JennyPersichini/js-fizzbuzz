@@ -4,16 +4,33 @@
 //Per i multipli di 5 stampi "Buzz";
 //Per i numeri che sono sia multipli di 3 che di 5 stampi "FizzBuzz".
 
+//BONUS:
+//Stampare questo esercizio nel DOM sfruttando i quadratini che abbiamo già fatto questa mattina nel live coding. 
+
 for (let i=1; i<=100; i++) {
-   
+
+    let word = i;
+    let squareClass = '';
+
     if (i % 15 == 0) {
-        console.log("FizzBuzz");
+        word = 'FizzBuzz';
+        squareClass = 'fizz-buzz'
+        console.log(word);
     } else if (i % 5 == 0) {
-        console.log("Buzz");
+        word = 'Buzz';
+        squareClass = 'buzz'
+        console.log(word);
     } else if (i % 3 == 0) {
-        console.log("Fizz");
+        word = 'Fizz';
+        squareClass = 'fizz'
+        console.log(word);
     } else {
         console.log(i);
     }
 
-}
+    document.getElementById("squares").innerHTML +=  
+    `<div class="square">
+        <div class="${squareClass}">${word}</div>
+    </div>`
+
+} 
