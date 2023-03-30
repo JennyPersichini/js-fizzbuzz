@@ -4,6 +4,10 @@
     padding: 0;
 }
 
+body {
+    background-color: rgb(251, 215, 171);
+}
+
 .container {
     margin: auto;
     width: 80%;
@@ -16,7 +20,6 @@
     line-height: 100px;
     vertical-align: middle;
     margin: 10px;
-    border: 1px solid black;
 }
 
 .my-container {
@@ -32,3 +35,24 @@
     flex-wrap: wrap;
 }
 
+/* BONUS: 
+Aggiungere che quando stampo Fizz il quadratino è giallo,
+quando stampo Buzz il quadratino e arancione
+e quando inserisco il quadratino "FizzBuzz" questo è rosso. */
+
+.fizz {
+    background-color: yellow;
+}
+
+.buzz {
+    background-color: rgb(255, 153, 0);
+}
+
+.fizzBuzz {
+    background-color: red;
+}
+
+.defaultSquare {
+    border: 1px solid black;
+    background-color: white;
+}

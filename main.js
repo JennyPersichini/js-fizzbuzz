@@ -14,7 +14,7 @@ for (let i=1; i<=100; i++) {
 
     if (i % 15 == 0) {
         word = 'FizzBuzz';
-        squareClass = 'fizz-buzz'
+        squareClass = 'fizzBuzz'
         console.log(word);
     } else if (i % 5 == 0) {
         word = 'Buzz';
