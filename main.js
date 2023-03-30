@@ -25,6 +25,7 @@ for (let i=1; i<=100; i++) {
         squareClass = 'fizz'
         console.log(word);
     } else {
+        squareClass = 'defaultSquare'
         console.log(i);
     }
 

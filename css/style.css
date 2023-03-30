@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: auto;
+    width: 80%;
+}
+
+.square {
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    vertical-align: middle;
+    margin: 10px;
+    border: 1px solid black;
+}
+
+.my-container {
+    margin: auto;
+    width: 80%;
+}
+
+.flex {
+    display: flex;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
+
